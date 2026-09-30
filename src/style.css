@@ -88,7 +88,7 @@ h3 {
 .hero-photo {
   background:
     linear-gradient(180deg, rgba(23, 33, 31, 0) 45%, rgba(23, 33, 31, 0.65)),
-    url('../img/pura.png') center/cover;
+    url('../img/me.jpeg') center/cover;
   border: 10px solid #f2eee6;
   box-shadow: 18px 18px 0 var(--red);
   min-height: 420px;
