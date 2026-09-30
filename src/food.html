@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the local food and traditional flavors of Gianyar, Bali."
+    />
+    <title>Local Food | Gianyar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg border-bottom"
+      aria-label="Main navigation"
+    >
+      <div class="container py-2">
+        <a class="navbar-brand" href="index.html"
+          >Gianyar<span class="text-danger">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavigation"
+          aria-controls="mainNavigation"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavigation">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hometown.html">Hometown</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="food.html"
+                >Local Food</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tourist.html">Tourist Places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="food-hero py-5">
+        <div class="container py-5">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <p class="eyebrow mb-4">Local food / Gianyar, Bali</p>
+              <h1 class="display-font mb-4">
+                A generous table, full of stories.
+              </h1>
+              <p class="lead text-light-emphasis food-intro mb-4">
+                In Gianyar, food is more than something to eat. It is a reason
+                to gather, a recipe passed between generations, and a warm
+                welcome served on a plate.
+              </p>
+              <a class="btn btn-accent px-4 py-3" href="#dishes"
+                >Explore the dishes</a
+              >
+            </div>
+            <div class="col-lg-6">
+              <img class="food-hero-image" src="../img/balinese-foods.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5" id="dishes">
+        <div class="container py-4">
+          <div class="row align-items-end mb-5">
+            <div class="col-lg-7">
+              <p class="section-label mb-2">What to try first</p>
+              <h2 class="display-5 fw-bold mb-0">Flavors of Gianyar</h2>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="dish-card shadow-sm p-3">
+                <img src="../img/nasi-campur-bali.png" loading="lazy" />
+                <div class="p-3 pb-2">
+                  <span class="feature-number">01 / EVERYDAY FAVORITE</span>
+                  <h3 class="mt-3">Nasi campur Bali</h3>
+                  <p class="text-secondary mb-0">
+                    A little bit of everything: rice with vegetables, sambal,
+                    savory meat, and flavorful side dishes in one satisfying
+                    plate.
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="dish-card shadow-sm p-3">
+                <img src="../img/sate-lilit.png" loading="lazy" />
+                <div class="p-3 pb-2">
+                  <span class="feature-number">02 / CELEBRATION DISH</span>
+                  <h3 class="mt-3">Sate lilit</h3>
+                  <p class="text-secondary mb-0">
+                    Minced meat is mixed with coconut and fragrant spices, then
+                    wrapped around a bamboo stick before it meets the grill.
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="dish-card shadow-sm p-3">
+                <img src="../img/ayam-betutu.png" loading="lazy" />
+                <div class="p-3 pb-2">
+                  <span class="feature-number">03 / SLOW COOKED</span>
+                  <h3 class="mt-3">Ayam betutu</h3>
+                  <p class="text-secondary mb-0">
+                    Duck is rubbed with a deep spice paste and cooked slowly
+                    until tender, aromatic, and rich with Balinese flavor.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section py-5">
+        <div class="container py-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <p class="section-label mb-3">A local ritual</p>
+              <blockquote class="display-font mb-4">
+                The best meals are rarely rushed. Pull up a chair, add sambal,
+                and let the conversation take its time.
+              </blockquote>
+              <p class="food-note pt-4 mb-0 text-secondary">
+                <strong class="text-dark">Small tip:</strong> Visit local
+                warungs around lunchtime for the freshest dishes and the most
+                authentic everyday experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between gap-3"
+      >
+        <a class="display-font fs-5" href="index.html">Gianyar.</a>
+        <span
+          >Made with curiosity, one <span class="fst-italic">satua</span> at a
+          time.</span
+        >
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
