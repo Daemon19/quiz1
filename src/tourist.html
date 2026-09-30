@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover popular tourist destinations, ancient temples, and scenic landscapes in Gianyar, Bali."
+    />
+    <title>Tourist Places | Gianyar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg border-bottom"
+      aria-label="Main navigation"
+    >
+      <div class="container py-2">
+        <a class="navbar-brand" href="index.html"
+          >Gianyar<span class="text-danger">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavigation"
+          aria-controls="mainNavigation"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavigation">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hometown.html">Hometown</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Local Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tourist.html"
+                >Tourist Places</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero d-flex align-items-center py-5">
+        <div class="container py-5">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7 hero-copy">
+              <p class="eyebrow mb-4">Discover Gianyar / Bali</p>
+              <h1 class="mb-4">Landmarks, temples, and natural wonders.</h1>
+              <p class="lead fs-5 mb-4">
+                Gianyar is home to Bali's cultural heartland. From lush monkey
+                sanctuaries and iconic rice terraces to sacred water temples,
+                discover the spots that define the beauty of our region.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a class="btn btn-accent px-4 py-3" href="#places"
+                  >Explore Destinations</a
+                >
+                <a class="btn btn-outline-light px-4 py-3" href="food.html"
+                  >Try Local Food</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div
+                class="hero-photo position-relative"
+                style="
+                  background-image:
+                    linear-gradient(
+                      180deg,
+                      rgba(23, 33, 31, 0) 45%,
+                      rgba(23, 33, 31, 0.65)
+                    ),
+                    url('../img/monkeys.png');
+                "
+                role="img"
+                aria-label="Tourist places hero showcase"
+              >
+                <div class="hero-photo-label">
+                  <small class="d-block text-uppercase fw-bold"
+                    >Explore Gianyar</small
+                  >
+                  <span class="display-font fs-3">Nature &amp; Heritage</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Destinations Grid -->
+      <section class="py-5" id="places">
+        <div class="container py-4">
+          <div class="row align-items-end mb-5">
+            <div class="col-lg-7">
+              <p class="section-label mb-2">Must-Visit Destinations</p>
+              <h2 class="display-5 fw-bold mb-0">Highlights of Gianyar</h2>
+            </div>
+            <div class="col-lg-5 mt-3 mt-lg-0">
+              <p class="text-secondary mb-0">
+                Immerse yourself in serene natural views, rich artistic history,
+                and timeless Balinese architecture.
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="dish-card shadow-sm p-3">
+                <img
+                  src="../img/monkeys.png"
+                  alt="Sacred Monkey Forest Sanctuary"
+                  loading="lazy"
+                />
+                <div class="p-3 pb-2">
+                  <span class="feature-number">01 / NATURE &amp; WILDLIFE</span>
+                  <h3 class="mt-3">Sacred Monkey Forest</h3>
+                  <p class="text-secondary mb-0">
+                    Located in Ubud, this natural sanctuary shelters hundreds of
+                    long-tailed macaques alongside moss-covered ancient temples
+                    and giant banyan trees.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="dish-card shadow-sm p-3">
+                <img
+                  src="../img/ubud.png"
+                  alt="Tegallalang Rice Terraces"
+                  loading="lazy"
+                />
+                <div class="p-3 pb-2">
+                  <span class="feature-number">02 / SCENIC LANDSCAPE</span>
+                  <h3 class="mt-3">Tegallalang Terraces</h3>
+                  <p class="text-secondary mb-0">
+                    Famous for its dramatic step-like green rice fields,
+                    Tegallalang offers iconic panoramic views powered by Bali's
+                    traditional subak irrigation network.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="dish-card shadow-sm p-3">
+                <img
+                  src="../img/tirta-empul.png"
+                  alt="Tirta Empul Water Temple"
+                  loading="lazy"
+                />
+                <div class="p-3 pb-2">
+                  <span class="feature-number">03 / SACRED HERITAGE</span>
+                  <h3 class="h3 mt-3">Tirta Empul Temple</h3>
+                  <p class="text-secondary mb-0">
+                    A holy spring water temple in Manukaya village where
+                    worshippers perform Melukat, a traditional Balinese ritual
+                    cleansing under freshwater spouts.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Visitor Tips Section -->
+      <section class="py-5 bg-white border-top border-bottom">
+        <div class="container py-4">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <p class="section-label mb-2">Visitor Etiquette</p>
+              <h2 class="display-5 fw-bold mb-4">Tips for a Great Visit</h2>
+              <ul
+                class="list-unstyled d-flex flex-column gap-3 fs-6 text-secondary mb-0"
+              >
+                <li class="d-flex align-items-start gap-3">
+                  <span class="badge bg-danger rounded-circle p-2 mt-1"
+                    >&check;</span
+                  >
+                  <div>
+                    <strong class="text-dark d-block"
+                      >Dress Respectfully</strong
+                    >
+                    Wear a sarong and sash when entering holy temple compounds
+                    out of respect for local customs.
+                  </div>
+                </li>
+                <li class="d-flex align-items-start gap-3">
+                  <span class="badge bg-danger rounded-circle p-2 mt-1"
+                    >&check;</span
+                  >
+                  <div>
+                    <strong class="text-dark d-block"
+                      >Start Early Morning</strong
+                    >
+                    Visit popular spots like rice terraces early in the day to
+                    catch morning light and avoid afternoon heat.
+                  </div>
+                </li>
+                <li class="d-flex align-items-start gap-3">
+                  <span class="badge bg-danger rounded-circle p-2 mt-1"
+                    >&check;</span
+                  >
+                  <div>
+                    <strong class="text-dark d-block">Mind the Wildlife</strong>
+                    Secure loose personal belongings (sunglasses, hats) when
+                    exploring monkey forest sanctuaries.
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="p-4 p-md-5 bg-light border shadow-sm">
+                <h3 class="h4 mb-3">Exploring Gianyar Regency</h3>
+                <p class="text-secondary mb-3">
+                  Gianyar is celebrated worldwide as Bali's artistic hub,
+                  encompassing Ubud, Sukawati, Tegallalang, and Tampaksiring.
+                  Beyond famous landmarks, take time to visit local art markets,
+                  woodcarving villages, and traditional dance performances.
+                </p>
+                <a class="btn btn-dark px-4 py-3 mt-2" href="hometown.html"
+                  >Read My Gianyar Story</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between gap-3"
+      >
+        <span class="display-font fs-5 text-white">Gianyar.</span>
+        <span
+          >Made with love, one <span class="fst-italic">satua</span> at a
+          time.</span
+        >
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
